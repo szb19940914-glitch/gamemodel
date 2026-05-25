@@ -1,0 +1,151 @@
+{
+  "vendor": "https://api.deepseek.com/v1",
+  "model": "deepseek-chat",
+  "total": 20,
+  "pass": 20,
+  "fail": 0,
+  "pass_rate": 1,
+  "generated_at": "2026-05-15T12:56:16.235Z",
+  "results": [
+    {
+      "id": "r01",
+      "request": "做一个太空主题的跑酷，三种敌人，每 1 秒生成一个",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 1
+    },
+    {
+      "id": "r02",
+      "request": "森林主题跑酷，难度简单，玩家可以二段跳",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r03",
+      "request": "赛博朋克跑酷，玩家很大很慢但血量高",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r04",
+      "request": "做个简单的跑酷给小孩玩，颜色亮一点",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 1
+    },
+    {
+      "id": "r05",
+      "request": "极难跑酷，障碍密集，玩家只有一条命",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r06",
+      "request": "可爱的小动物跑酷，粉色背景",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r07",
+      "request": "霓虹夜景跑酷，紫色和青色对比",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r08",
+      "request": "海底跑酷，重力很低，跳得很高",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r09",
+      "request": "沙漠跑酷，速度极快",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r10",
+      "request": "做个跑酷",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r11",
+      "request": "做一个 3D MMO 大型多人游戏",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 1
+    },
+    {
+      "id": "r12",
+      "request": "做个塔防游戏",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r13",
+      "request": "雪山跑酷，蓝白配色，两种障碍",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r14",
+      "request": "火山跑酷，红黑配色，无二段跳，难度高",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r15",
+      "request": "极简黑白跑酷，只有一种障碍",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r16",
+      "request": "rainbow runner with three colorful obstacles",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r17",
+      "request": "easy training mode for beginners",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r18",
+      "request": "做一个跑酷，玩家是绿色，障碍是红色",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 1
+    },
+    {
+      "id": "r19",
+      "request": "speed run, very fast, double jump on",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    },
+    {
+      "id": "r20",
+      "request": "做一个跑酷，玩家可以三段跳，速度中等",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 0
+    }
+  ]
+}

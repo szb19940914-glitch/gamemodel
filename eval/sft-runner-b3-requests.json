@@ -1,0 +1,122 @@
+[
+  {
+    "id": "b3_01",
+    "request": "Prairie ride, easy, dodge tumbleweeds."
+  },
+  {
+    "id": "b3_02",
+    "request": "Rainforest stroll, easy, fallen palm fronds."
+  },
+  {
+    "id": "b3_03",
+    "request": "Treetop hop, easy, bird nests."
+  },
+  {
+    "id": "b3_04",
+    "request": "Harbor jog, easy, fishing nets."
+  },
+  {
+    "id": "b3_05",
+    "request": "Old bridge run, easy, broken planks."
+  },
+  {
+    "id": "b3_06",
+    "request": "Canyon trek, easy, small rockfalls."
+  },
+  {
+    "id": "b3_07",
+    "request": "Coral reef glide, easy, soft anemones."
+  },
+  {
+    "id": "b3_08",
+    "request": "Glacier walk, easy, snow chunks."
+  },
+  {
+    "id": "b3_09",
+    "request": "Marina jog, easy, mooring buoys."
+  },
+  {
+    "id": "b3_10",
+    "request": "Orchid garden hop, easy, flowerbeds."
+  },
+  {
+    "id": "b3_11",
+    "request": "Observatory dome jog, easy, telescope cases."
+  },
+  {
+    "id": "b3_12",
+    "request": "Bakery hop, easy, flour sacks."
+  },
+  {
+    "id": "b3_13",
+    "request": "Lavender field amble, easy, beehives."
+  },
+  {
+    "id": "b3_14",
+    "request": "Ice floe hop, easy, penguin clusters."
+  },
+  {
+    "id": "b3_15",
+    "request": "Quiet airplane hangar, easy, fuel drums."
+  },
+  {
+    "id": "b3_16",
+    "request": "Hard inferno run, fire whips."
+  },
+  {
+    "id": "b3_17",
+    "request": "Hard stormcloud sprint, lightning rods."
+  },
+  {
+    "id": "b3_18",
+    "request": "Hard shadow realm, wraith claws."
+  },
+  {
+    "id": "b3_19",
+    "request": "Hard toxic swamp run, acid bubbles."
+  },
+  {
+    "id": "b3_20",
+    "request": "Hard cyberlab run, plasma traps."
+  },
+  {
+    "id": "b3_21",
+    "request": "Hard warzone sprint, mines and barricades."
+  },
+  {
+    "id": "b3_22",
+    "request": "Hard blackhole edge, gravity wells."
+  },
+  {
+    "id": "b3_23",
+    "request": "Hard volcanic eruption sprint, ash clouds."
+  },
+  {
+    "id": "b3_24",
+    "request": "Hard mecha hangar, robot debris."
+  },
+  {
+    "id": "b3_25",
+    "request": "Hard hellgate run, demon spikes."
+  },
+  {
+    "id": "b3_26",
+    "request": "Hard cavefall run, stalactite drops."
+  },
+  {
+    "id": "b3_27",
+    "request": "Hard frostbite run, ice spikes."
+  },
+  {
+    "id": "b3_28",
+    "request": "Hard arcade run, glitch walls."
+  },
+  {
+    "id": "b3_29",
+    "request": "Hard samurai dojo, blade traps."
+  },
+  {
+    "id": "b3_30",
+    "request": "Hard quantum lab, particle beams."
+  }
+]

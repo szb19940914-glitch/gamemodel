@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "title": "Dark Rift Gauntlet",
+    "genre": "runner",
+    "theme": "dark fantasy",
+    "difficulty": "hard"
+  },
+  "player": {
+    "speed": 0,
+    "jumpVelocity": 700,
+    "doubleJump": true,
+    "hp": 3,
+    "color": "0xb8b8c8",
+    "size": 32
+  },
+  "world": {
+    "gravity": 1500,
+    "scrollSpeed": 280,
+    "groundColor": "0x171019",
+    "skyColor": "0x09070d"
+  },
+  "obstacles": [
+    {
+      "type": "shadow_spike",
+      "spawnInterval": 1.7,
+      "color": "0x6d1f2f",
+      "width": 22,
+      "height": 40
+    }
+  ],
+  "scoring": {
+    "type": "distance",
+    "perPixel": 0.2
+  },
+  "experience": {
+    "goalText": "Survive the five-minute shadow trial",
+    "instructionText": "Tap / Space to jump. Stay alive.",
+    "failureText": "The abyss claims the weak. Try again.",
+    "successText": "You outran the dark rift.",
+    "mood": "mysterious",
+    "reward": "survival"
+  }
+}

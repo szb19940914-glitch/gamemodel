@@ -1,0 +1,286 @@
+{
+  "r01": {
+    "meta": { "title": "Space Runner", "genre": "runner", "theme": "space", "difficulty": "normal" },
+    "player": { "speed": 0, "jumpVelocity": 500, "doubleJump": true, "hp": 1, "color": "0x66ccff", "size": 32 },
+    "world": { "gravity": 1200, "scrollSpeed": 250, "groundColor": "0x222244", "skyColor": "0x000022" },
+    "obstacles": [
+      { "type": "asteroid", "spawnInterval": 1.0, "color": "0x8866aa", "width": 28, "height": 28 },
+      { "type": "spike",    "spawnInterval": 1.0, "color": "0xff4477", "width": 22, "height": 40 },
+      { "type": "drone",    "spawnInterval": 1.0, "color": "0xffaa33", "width": 32, "height": 24 }
+    ],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r02": {
+    "meta": { "title": "Forest Run", "genre": "runner", "theme": "forest", "difficulty": "easy" },
+    "player": { "speed": 0, "jumpVelocity": 480, "doubleJump": true, "hp": 1, "color": "0x88dd66", "size": 32 },
+    "world": { "gravity": 1000, "scrollSpeed": 180, "groundColor": "0x335522", "skyColor": "0x88ccee" },
+    "obstacles": [{ "type": "log", "spawnInterval": 1.8, "color": "0x884422", "width": 32, "height": 28 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r03": {
+    "meta": { "title": "Cyber Tank", "genre": "runner", "theme": "cyberpunk", "difficulty": "normal" },
+    "player": { "speed": 0, "jumpVelocity": 520, "doubleJump": true, "hp": 5, "color": "0xff44aa", "size": 60 },
+    "world": { "gravity": 1200, "scrollSpeed": 150, "groundColor": "0x222233", "skyColor": "0x110022" },
+    "obstacles": [{ "type": "neon_spike", "spawnInterval": 1.6, "color": "0x00ffee", "width": 24, "height": 40 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r04": {
+    "meta": { "title": "Kids Run", "genre": "runner", "theme": "cute", "difficulty": "easy" },
+    "player": { "speed": 0, "jumpVelocity": 450, "doubleJump": true, "hp": 3, "color": "0xffeb55", "size": 32 },
+    "world": { "gravity": 1000, "scrollSpeed": 180, "groundColor": "0x66cc66", "skyColor": "0x99ddff" },
+    "obstacles": [{ "type": "ball", "spawnInterval": 1.8, "color": "0xff66aa", "width": 24, "height": 24 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r05": {
+    "meta": { "title": "Death Run", "genre": "runner", "theme": "horror", "difficulty": "hard" },
+    "player": { "speed": 0, "jumpVelocity": 520, "doubleJump": true, "hp": 1, "color": "0xdddddd", "size": 30 },
+    "world": { "gravity": 1400, "scrollSpeed": 350, "groundColor": "0x111111", "skyColor": "0x220000" },
+    "obstacles": [
+      { "type": "spike",  "spawnInterval": 0.7, "color": "0xff2244", "width": 22, "height": 40 },
+      { "type": "blade",  "spawnInterval": 0.9, "color": "0xaaaaaa", "width": 28, "height": 30 }
+    ],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r06": {
+    "meta": { "title": "Cute Animal Run", "genre": "runner", "theme": "cute", "difficulty": "easy" },
+    "player": { "speed": 0, "jumpVelocity": 460, "doubleJump": true, "hp": 2, "color": "0xffffff", "size": 32 },
+    "world": { "gravity": 1000, "scrollSpeed": 180, "groundColor": "0xffaadd", "skyColor": "0xffd6ee" },
+    "obstacles": [{ "type": "stone", "spawnInterval": 1.8, "color": "0xaa6688", "width": 26, "height": 26 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r07": {
+    "meta": { "title": "Neon Night", "genre": "runner", "theme": "neon", "difficulty": "normal" },
+    "player": { "speed": 0, "jumpVelocity": 500, "doubleJump": true, "hp": 1, "color": "0xaa44ff", "size": 32 },
+    "world": { "gravity": 1200, "scrollSpeed": 260, "groundColor": "0x110022", "skyColor": "0x002233" },
+    "obstacles": [{ "type": "spike", "spawnInterval": 1.4, "color": "0x00ffee", "width": 22, "height": 40 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r08": {
+    "meta": { "title": "Underwater Run", "genre": "runner", "theme": "underwater", "difficulty": "easy" },
+    "player": { "speed": 0, "jumpVelocity": 800, "doubleJump": true, "hp": 2, "color": "0x44ffdd", "size": 32 },
+    "world": { "gravity": 600, "scrollSpeed": 200, "groundColor": "0x224466", "skyColor": "0x0066aa" },
+    "obstacles": [{ "type": "coral", "spawnInterval": 1.6, "color": "0xff77aa", "width": 26, "height": 36 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r09": {
+    "meta": { "title": "Desert Sprint", "genre": "runner", "theme": "desert", "difficulty": "hard" },
+    "player": { "speed": 0, "jumpVelocity": 540, "doubleJump": true, "hp": 1, "color": "0xddaa55", "size": 32 },
+    "world": { "gravity": 1300, "scrollSpeed": 500, "groundColor": "0xccaa66", "skyColor": "0xffdd99" },
+    "obstacles": [{ "type": "cactus", "spawnInterval": 1.0, "color": "0x227744", "width": 22, "height": 44 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r10": {
+    "meta": { "title": "Runner", "genre": "runner", "theme": "default", "difficulty": "normal" },
+    "player": { "speed": 0, "jumpVelocity": 500, "doubleJump": true, "hp": 1, "color": "0x66ccff", "size": 32 },
+    "world": { "gravity": 1200, "scrollSpeed": 250, "groundColor": "0x333344", "skyColor": "0x223355" },
+    "obstacles": [{ "type": "spike", "spawnInterval": 1.4, "color": "0xff5577", "width": 24, "height": 40 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r11": {
+    "meta": { "title": "Galaxy Run (MMO-flavored)", "genre": "runner", "theme": "space", "difficulty": "normal" },
+    "player": { "speed": 0, "jumpVelocity": 500, "doubleJump": true, "hp": 3, "color": "0x66ccff", "size": 32 },
+    "world": { "gravity": 1200, "scrollSpeed": 260, "groundColor": "0x222244", "skyColor": "0x000022" },
+    "obstacles": [
+      { "type": "asteroid", "spawnInterval": 1.4, "color": "0x8866aa", "width": 28, "height": 28 },
+      { "type": "drone",    "spawnInterval": 1.6, "color": "0xffaa33", "width": 32, "height": 24 }
+    ],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r12": {
+    "meta": { "title": "Defender Run (TD-flavored)", "genre": "runner", "theme": "fantasy", "difficulty": "normal" },
+    "player": { "speed": 0, "jumpVelocity": 500, "doubleJump": true, "hp": 3, "color": "0xddcc66", "size": 32 },
+    "world": { "gravity": 1200, "scrollSpeed": 250, "groundColor": "0x445522", "skyColor": "0x88aaff" },
+    "obstacles": [{ "type": "goblin", "spawnInterval": 1.4, "color": "0x66aa44", "width": 26, "height": 32 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r13": {
+    "meta": { "title": "Snow Mountain", "genre": "runner", "theme": "snow", "difficulty": "normal" },
+    "player": { "speed": 0, "jumpVelocity": 500, "doubleJump": true, "hp": 2, "color": "0xeeeeff", "size": 32 },
+    "world": { "gravity": 1200, "scrollSpeed": 250, "groundColor": "0xddeeff", "skyColor": "0x6699cc" },
+    "obstacles": [
+      { "type": "icicle", "spawnInterval": 1.4, "color": "0x99ccff", "width": 22, "height": 40 },
+      { "type": "rock",   "spawnInterval": 1.6, "color": "0x556677", "width": 28, "height": 28 }
+    ],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r14": {
+    "meta": { "title": "Volcano Run", "genre": "runner", "theme": "volcano", "difficulty": "hard" },
+    "player": { "speed": 0, "jumpVelocity": 520, "doubleJump": false, "hp": 1, "color": "0xff5522", "size": 32 },
+    "world": { "gravity": 1400, "scrollSpeed": 350, "groundColor": "0x220000", "skyColor": "0x441100" },
+    "obstacles": [{ "type": "lava_spike", "spawnInterval": 1.0, "color": "0xff2200", "width": 22, "height": 40 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r15": {
+    "meta": { "title": "Mono", "genre": "runner", "theme": "minimal", "difficulty": "normal" },
+    "player": { "speed": 0, "jumpVelocity": 500, "doubleJump": true, "hp": 1, "color": "0xffffff", "size": 32 },
+    "world": { "gravity": 1200, "scrollSpeed": 250, "groundColor": "0x222222", "skyColor": "0x000000" },
+    "obstacles": [{ "type": "block", "spawnInterval": 1.4, "color": "0xffffff", "width": 24, "height": 32 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r16": {
+    "meta": { "title": "Rainbow Runner", "genre": "runner", "theme": "rainbow", "difficulty": "normal" },
+    "player": { "speed": 0, "jumpVelocity": 500, "doubleJump": true, "hp": 2, "color": "0xffffff", "size": 32 },
+    "world": { "gravity": 1200, "scrollSpeed": 250, "groundColor": "0x222244", "skyColor": "0x112266" },
+    "obstacles": [
+      { "type": "red",   "spawnInterval": 1.4, "color": "0xff4444", "width": 22, "height": 38 },
+      { "type": "green", "spawnInterval": 1.6, "color": "0x44ff44", "width": 26, "height": 26 },
+      { "type": "blue",  "spawnInterval": 1.8, "color": "0x4488ff", "width": 28, "height": 32 }
+    ],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r17": {
+    "meta": { "title": "Beginner Training", "genre": "runner", "theme": "default", "difficulty": "easy" },
+    "player": { "speed": 0, "jumpVelocity": 480, "doubleJump": true, "hp": 3, "color": "0x66ccff", "size": 32 },
+    "world": { "gravity": 1000, "scrollSpeed": 180, "groundColor": "0x333344", "skyColor": "0x88ccee" },
+    "obstacles": [{ "type": "spike", "spawnInterval": 2.0, "color": "0xff5577", "width": 22, "height": 32 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r18": {
+    "meta": { "title": "Green vs Red", "genre": "runner", "theme": "default", "difficulty": "normal" },
+    "player": { "speed": 0, "jumpVelocity": 500, "doubleJump": true, "hp": 1, "color": "0x33cc44", "size": 32 },
+    "world": { "gravity": 1200, "scrollSpeed": 250, "groundColor": "0x333344", "skyColor": "0x223355" },
+    "obstacles": [{ "type": "spike", "spawnInterval": 1.4, "color": "0xff3333", "width": 24, "height": 40 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r19": {
+    "meta": { "title": "Speed Run", "genre": "runner", "theme": "neon", "difficulty": "hard" },
+    "player": { "speed": 0, "jumpVelocity": 540, "doubleJump": true, "hp": 1, "color": "0x00ffff", "size": 32 },
+    "world": { "gravity": 1300, "scrollSpeed": 500, "groundColor": "0x111122", "skyColor": "0x220033" },
+    "obstacles": [{ "type": "spike", "spawnInterval": 1.0, "color": "0xff00aa", "width": 22, "height": 40 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+  "r20": {
+    "meta": { "title": "Triple Jump (mapped to double)", "genre": "runner", "theme": "default", "difficulty": "normal" },
+    "player": { "speed": 0, "jumpVelocity": 520, "doubleJump": true, "hp": 1, "color": "0x66ccff", "size": 32 },
+    "world": { "gravity": 1200, "scrollSpeed": 250, "groundColor": "0x333344", "skyColor": "0x223355" },
+    "obstacles": [{ "type": "spike", "spawnInterval": 1.4, "color": "0xff5577", "width": 24, "height": 40 }],
+    "scoring": { "type": "distance", "perPixel": 0.05 }
+  },
+
+  "p01": {
+    "meta": { "title": "Simple Platformer", "genre": "platformer", "theme": "default", "difficulty": "easy" },
+    "player": { "jumpVelocity": 480, "moveSpeed": 220, "doubleJump": true, "hp": 3, "color": "0x66ccff", "size": 32 },
+    "world": { "gravity": 1000, "groundColor": "0x333344", "skyColor": "0x88ccee", "width": 800 },
+    "platforms": [
+      { "x": 200, "y": 300, "width": 120, "height": 16, "color": "0x666688" },
+      { "x": 400, "y": 240, "width": 120, "height": 16, "color": "0x666688" },
+      { "x": 580, "y": 300, "width": 120, "height": 16, "color": "0x666688" }
+    ],
+    "goal": { "x": 740, "y": 340, "color": "0x44ff88" }
+  },
+  "p02": {
+    "meta": { "title": "Forest Hop", "genre": "platformer", "theme": "forest", "difficulty": "normal" },
+    "player": { "jumpVelocity": 500, "moveSpeed": 200, "doubleJump": true, "hp": 3, "color": "0x88dd66", "size": 32 },
+    "world": { "gravity": 1200, "groundColor": "0x335522", "skyColor": "0x88ccee", "width": 1200 },
+    "platforms": [
+      { "x": 150, "y": 300, "width": 100, "height": 16, "color": "0x884422" },
+      { "x": 350, "y": 250, "width": 100, "height": 16, "color": "0x884422" },
+      { "x": 550, "y": 200, "width": 100, "height": 16, "color": "0x884422" },
+      { "x": 800, "y": 260, "width": 100, "height": 16, "color": "0x884422" },
+      { "x": 1020, "y": 300, "width": 120, "height": 16, "color": "0x884422" }
+    ],
+    "goal": { "x": 1140, "y": 270, "color": "0xffee44" }
+  },
+  "p03": {
+    "meta": { "title": "Snow Climb", "genre": "platformer", "theme": "snow", "difficulty": "hard" },
+    "player": { "jumpVelocity": 520, "moveSpeed": 180, "doubleJump": true, "hp": 2, "color": "0xeeeeff", "size": 32 },
+    "world": { "gravity": 1400, "groundColor": "0xddeeff", "skyColor": "0x6699cc", "width": 1800 },
+    "platforms": [
+      { "x": 180, "y": 320, "width": 80, "height": 16, "color": "0x99ccff" },
+      { "x": 320, "y": 260, "width": 80, "height": 16, "color": "0x99ccff" },
+      { "x": 480, "y": 200, "width": 80, "height": 16, "color": "0x99ccff" },
+      { "x": 660, "y": 260, "width": 80, "height": 16, "color": "0x99ccff" },
+      { "x": 880, "y": 220, "width": 80, "height": 16, "color": "0x99ccff" },
+      { "x": 1100, "y": 280, "width": 80, "height": 16, "color": "0x99ccff" },
+      { "x": 1320, "y": 220, "width": 80, "height": 16, "color": "0x99ccff" },
+      { "x": 1540, "y": 280, "width": 100, "height": 16, "color": "0x99ccff" }
+    ],
+    "goal": { "x": 1700, "y": 250, "color": "0xff66aa" }
+  },
+  "p04": {
+    "meta": { "title": "Lunar Hop", "genre": "platformer", "theme": "space", "difficulty": "easy" },
+    "player": { "jumpVelocity": 750, "moveSpeed": 200, "doubleJump": true, "hp": 3, "color": "0x66ccff", "size": 32 },
+    "world": { "gravity": 600, "groundColor": "0x222244", "skyColor": "0x000022", "width": 1000 },
+    "platforms": [
+      { "x": 220, "y": 280, "width": 100, "height": 14, "color": "0x8866aa" },
+      { "x": 420, "y": 200, "width": 100, "height": 14, "color": "0x8866aa" },
+      { "x": 620, "y": 260, "width": 100, "height": 14, "color": "0x8866aa" },
+      { "x": 820, "y": 220, "width": 100, "height": 14, "color": "0x8866aa" }
+    ],
+    "goal": { "x": 950, "y": 190, "color": "0xffee44" }
+  },
+  "p05": {
+    "meta": { "title": "Mono Hop", "genre": "platformer", "theme": "minimal", "difficulty": "normal" },
+    "player": { "jumpVelocity": 500, "moveSpeed": 200, "doubleJump": true, "hp": 1, "color": "0xffffff", "size": 32 },
+    "world": { "gravity": 1200, "groundColor": "0x222222", "skyColor": "0x000000", "width": 800 },
+    "platforms": [
+      { "x": 220, "y": 290, "width": 110, "height": 12, "color": "0xffffff" },
+      { "x": 410, "y": 230, "width": 110, "height": 12, "color": "0xffffff" },
+      { "x": 600, "y": 290, "width": 110, "height": 12, "color": "0xffffff" }
+    ],
+    "goal": { "x": 750, "y": 260, "color": "0xffffff" }
+  },
+  "p06": {
+    "meta": { "title": "Beginner Hop", "genre": "platformer", "theme": "default", "difficulty": "easy" },
+    "player": { "jumpVelocity": 480, "moveSpeed": 220, "doubleJump": true, "hp": 5, "color": "0x66ccff", "size": 32 },
+    "world": { "gravity": 1000, "groundColor": "0x333344", "skyColor": "0x88ccee", "width": 800 },
+    "platforms": [
+      { "x": 150, "y": 320, "width": 100, "height": 16, "color": "0x666688" },
+      { "x": 290, "y": 280, "width": 100, "height": 16, "color": "0x666688" },
+      { "x": 430, "y": 240, "width": 100, "height": 16, "color": "0x666688" },
+      { "x": 570, "y": 280, "width": 100, "height": 16, "color": "0x666688" }
+    ],
+    "goal": { "x": 720, "y": 250, "color": "0x44ff88" }
+  },
+  "p07": {
+    "meta": { "title": "Neon Hop", "genre": "platformer", "theme": "neon", "difficulty": "normal" },
+    "player": { "jumpVelocity": 500, "moveSpeed": 200, "doubleJump": true, "hp": 2, "color": "0xaa44ff", "size": 32 },
+    "world": { "gravity": 1200, "groundColor": "0x110022", "skyColor": "0x002233", "width": 1200 },
+    "platforms": [
+      { "x": 200, "y": 300, "width": 110, "height": 14, "color": "0x00ffee" },
+      { "x": 420, "y": 240, "width": 110, "height": 14, "color": "0xaa44ff" },
+      { "x": 640, "y": 200, "width": 110, "height": 14, "color": "0x00ffee" },
+      { "x": 860, "y": 260, "width": 110, "height": 14, "color": "0xaa44ff" },
+      { "x": 1060, "y": 300, "width": 120, "height": 14, "color": "0x00ffee" }
+    ],
+    "goal": { "x": 1160, "y": 270, "color": "0xffffff" }
+  },
+  "p08": {
+    "meta": { "title": "Hop", "genre": "platformer", "theme": "default", "difficulty": "normal" },
+    "player": { "jumpVelocity": 500, "moveSpeed": 200, "doubleJump": true, "hp": 3, "color": "0x66ccff", "size": 32 },
+    "world": { "gravity": 1200, "groundColor": "0x333344", "skyColor": "0x223355", "width": 1200 },
+    "platforms": [
+      { "x": 200, "y": 290, "width": 100, "height": 16, "color": "0x666688" },
+      { "x": 400, "y": 230, "width": 100, "height": 16, "color": "0x666688" },
+      { "x": 620, "y": 270, "width": 100, "height": 16, "color": "0x666688" },
+      { "x": 840, "y": 220, "width": 100, "height": 16, "color": "0x666688" },
+      { "x": 1040, "y": 290, "width": 120, "height": 16, "color": "0x666688" }
+    ],
+    "goal": { "x": 1150, "y": 260, "color": "0xffee44" }
+  },
+  "p09": {
+    "meta": { "title": "Pink Hop", "genre": "platformer", "theme": "cute", "difficulty": "easy" },
+    "player": { "jumpVelocity": 480, "moveSpeed": 220, "doubleJump": true, "hp": 3, "color": "0xffeb55", "size": 32 },
+    "world": { "gravity": 1000, "groundColor": "0xffaadd", "skyColor": "0xffd6ee", "width": 800 },
+    "platforms": [
+      { "x": 200, "y": 300, "width": 110, "height": 16, "color": "0xff77bb" },
+      { "x": 400, "y": 240, "width": 110, "height": 16, "color": "0xff77bb" },
+      { "x": 580, "y": 290, "width": 120, "height": 16, "color": "0xff77bb" }
+    ],
+    "goal": { "x": 740, "y": 260, "color": "0xff3399" }
+  },
+  "p10": {
+    "meta": { "title": "Precision Hop", "genre": "platformer", "theme": "default", "difficulty": "hard" },
+    "player": { "jumpVelocity": 520, "moveSpeed": 180, "doubleJump": false, "hp": 1, "color": "0xff7733", "size": 32 },
+    "world": { "gravity": 1300, "groundColor": "0x222222", "skyColor": "0x331100", "width": 1200 },
+    "platforms": [
+      { "x": 180, "y": 310, "width": 80, "height": 14, "color": "0xaa5522" },
+      { "x": 320, "y": 260, "width": 80, "height": 14, "color": "0xaa5522" },
+      { "x": 460, "y": 220, "width": 80, "height": 14, "color": "0xaa5522" },
+      { "x": 620, "y": 260, "width": 80, "height": 14, "color": "0xaa5522" },
+      { "x": 800, "y": 220, "width": 80, "height": 14, "color": "0xaa5522" },
+      { "x": 980, "y": 260, "width": 100, "height": 14, "color": "0xaa5522" }
+    ],
+    "goal": { "x": 1100, "y": 230, "color": "0xffff00" }
+  }
+}

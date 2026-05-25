@@ -1,0 +1,240 @@
+{
+  "source": "comate",
+  "total": 30,
+  "pass": 10,
+  "fail": 20,
+  "pass_rate": 0.33,
+  "generated_at": "2026-05-18T07:25:38.733Z",
+  "results": [
+    {
+      "id": "r01",
+      "request": "做一个太空主题的跑酷，三种敌人，每 1 秒生成一个",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:59:1 › runner-robot: survives 6s with periodic jumps ─────────────────────── |   3 skipped |   2 passed (17.8s) | ",
+      "elapsed_ms": 19526
+    },
+    {
+      "id": "r02",
+      "request": "森林主题跑酷，难度简单，玩家可以二段跳",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 16662
+    },
+    {
+      "id": "r03",
+      "request": "赛博朋克跑酷，玩家很大很慢但血量高",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 16566
+    },
+    {
+      "id": "r04",
+      "request": "做个简单的跑酷给小孩玩，颜色亮一点",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 16606
+    },
+    {
+      "id": "r05",
+      "request": "极难跑酷，障碍密集，玩家只有一条命",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:59:1 › runner-robot: survives 6s with periodic jumps ─────────────────────── |   3 skipped |   2 passed (15.1s) | ",
+      "elapsed_ms": 16338
+    },
+    {
+      "id": "r06",
+      "request": "可爱的小动物跑酷，粉色背景",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 16492
+    },
+    {
+      "id": "r07",
+      "request": "霓虹夜景跑酷，紫色和青色对比",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 16445
+    },
+    {
+      "id": "r08",
+      "request": "海底跑酷，重力很低，跳得很高",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:59:1 › runner-robot: survives 6s with periodic jumps ─────────────────────── |   3 skipped |   2 passed (15.2s) | ",
+      "elapsed_ms": 16733
+    },
+    {
+      "id": "r09",
+      "request": "沙漠跑酷，速度极快",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:59:1 › runner-robot: survives 6s with periodic jumps ─────────────────────── |   3 skipped |   2 passed (16.7s) | ",
+      "elapsed_ms": 17768
+    },
+    {
+      "id": "r10",
+      "request": "做个跑酷",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:59:1 › runner-robot: survives 6s with periodic jumps ─────────────────────── |   3 skipped |   2 passed (17.1s) | ",
+      "elapsed_ms": 19184
+    },
+    {
+      "id": "r11",
+      "request": "做一个 3D MMO 大型多人游戏",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:59:1 › runner-robot: survives 6s with periodic jumps ─────────────────────── |   3 skipped |   2 passed (16.7s) | ",
+      "elapsed_ms": 17952
+    },
+    {
+      "id": "r12",
+      "request": "做个塔防游戏",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:59:1 › runner-robot: survives 6s with periodic jumps ─────────────────────── |   3 skipped |   2 passed (16.1s) | ",
+      "elapsed_ms": 17278
+    },
+    {
+      "id": "r13",
+      "request": "雪山跑酷，蓝白配色，两种障碍",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:59:1 › runner-robot: survives 6s with periodic jumps ─────────────────────── |   3 skipped |   2 passed (15.1s) | ",
+      "elapsed_ms": 16208
+    },
+    {
+      "id": "r14",
+      "request": "火山跑酷，红黑配色，无二段跳，难度高",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:59:1 › runner-robot: survives 6s with periodic jumps ─────────────────────── |   3 skipped |   2 passed (14.9s) | ",
+      "elapsed_ms": 16008
+    },
+    {
+      "id": "r15",
+      "request": "极简黑白跑酷，只有一种障碍",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:59:1 › runner-robot: survives 6s with periodic jumps ─────────────────────── |   3 skipped |   2 passed (17.5s) | ",
+      "elapsed_ms": 18944
+    },
+    {
+      "id": "r16",
+      "request": "rainbow runner with three colorful obstacles",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:59:1 › runner-robot: survives 6s with periodic jumps ─────────────────────── |   3 skipped |   2 passed (15.1s) | ",
+      "elapsed_ms": 16239
+    },
+    {
+      "id": "r17",
+      "request": "easy training mode for beginners",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 19205
+    },
+    {
+      "id": "r18",
+      "request": "做一个跑酷，玩家是绿色，障碍是红色",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:59:1 › runner-robot: survives 6s with periodic jumps ─────────────────────── |   3 skipped |   2 passed (20.2s) | ",
+      "elapsed_ms": 22764
+    },
+    {
+      "id": "r19",
+      "request": "speed run, very fast, double jump on",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:59:1 › runner-robot: survives 6s with periodic jumps ─────────────────────── |   3 skipped |   2 passed (15.7s) | ",
+      "elapsed_ms": 17130
+    },
+    {
+      "id": "r20",
+      "request": "做一个跑酷，玩家可以三段跳，速度中等",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 15984
+    },
+    {
+      "id": "p01",
+      "request": "做一个简单的平台跳跃游戏，3 个平台，终点在右边",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:15:1 › platformer-robot: auto right + jump can reach goal ────────────────── |   3 skipped |   2 passed (19.2s) | ",
+      "elapsed_ms": 20348
+    },
+    {
+      "id": "p02",
+      "request": "森林主题平台跳跃，难度普通，4 到 5 个平台",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 10808
+    },
+    {
+      "id": "p03",
+      "request": "雪山平台跳跃，蓝白色调，关卡较长，难度高",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:15:1 › platformer-robot: auto right + jump can reach goal ────────────────── |   3 skipped |   2 passed (18.7s) | ",
+      "elapsed_ms": 19673
+    },
+    {
+      "id": "p04",
+      "request": "太空主题平台跳跃，低重力，可以跳很高",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 9919
+    },
+    {
+      "id": "p05",
+      "request": "极简黑白平台跳跃，3 个平台",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 8159
+    },
+    {
+      "id": "p06",
+      "request": "适合新手的平台跳跃，平台多，距离近",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:15:1 › platformer-robot: auto right + jump can reach goal ────────────────── |   3 skipped |   2 passed (18.8s) | ",
+      "elapsed_ms": 19801
+    },
+    {
+      "id": "p07",
+      "request": "霓虹夜景平台跳跃，紫色青色对比",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:15:1 › platformer-robot: auto right + jump can reach goal ────────────────── |   3 skipped |   2 passed (19.5s) | ",
+      "elapsed_ms": 20553
+    },
+    {
+      "id": "p08",
+      "request": "做一个平台跳跃",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:15:1 › platformer-robot: auto right + jump can reach goal ────────────────── |   3 skipped |   2 passed (20.2s) | ",
+      "elapsed_ms": 21456
+    },
+    {
+      "id": "p09",
+      "request": "可爱粉色平台跳跃，玩家是黄色，终点是粉色旗",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:15:1 › platformer-robot: auto right + jump can reach goal ────────────────── |   3 skipped |   2 passed (21.2s) | ",
+      "elapsed_ms": 22315
+    },
+    {
+      "id": "p10",
+      "request": "做一个不能二段跳的平台跳跃，玩家必须精准跳跃",
+      "stage": "test",
+      "pass": false,
+      "error": "playwright:     tests/robot.spec.ts:15:1 › platformer-robot: auto right + jump can reach goal ────────────────── |   3 skipped |   2 passed (20.2s) | ",
+      "elapsed_ms": 21306
+    }
+  ]
+}

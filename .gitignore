@@ -1,0 +1,33 @@
+node_modules
+
+dist
+test-results
+playwright-report
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python / MLX local env
+.venv/
+.venv-mlx/
+__pycache__/
+*.pyc
+
+# Local training/model artifacts
+adapters/
+mlx-data/
+*.safetensors
+
+# Runtime logs / temporary outputs
+.comate/
+*.log
+
+# Generated eval outputs/reports from local runs
+eval/lora-smoke-outputs.json
+eval/report-lora-smoke.json
+eval/lora-training-summary.txt
+
+# TypeScript incremental/build cache
+tsconfig.tsbuildinfo

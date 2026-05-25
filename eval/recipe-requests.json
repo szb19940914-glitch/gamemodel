@@ -1,0 +1,12 @@
+[
+  { "id": "v01", "request": "Forest run, easy, single log obstacles" },
+  { "id": "v02", "request": "Cyberpunk runner with neon drones" },
+  { "id": "v03", "request": "Desert hard run with cactus" },
+  { "id": "v04", "request": "Ice cave runner with single jump (no double jump)" },
+  { "id": "v05", "request": "Candy theme easy runner, lollipop obstacles" },
+  { "id": "v06", "request": "Jungle platformer easy" },
+  { "id": "v07", "request": "Castle platformer normal" },
+  { "id": "v08", "request": "Cloud platforms, hard, wide level" },
+  { "id": "v09", "request": "Cave dive platformer normal" },
+  { "id": "v10", "request": "Rooftop chase, hard, very wide level" }
+]

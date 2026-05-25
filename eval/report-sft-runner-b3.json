@@ -1,0 +1,703 @@
+{
+  "source": "comate",
+  "ensemble_runs": 3,
+  "total": 30,
+  "pass": 28,
+  "fail": 2,
+  "pass_rate": 0.93,
+  "generated_at": "2026-05-18T12:36:38.403Z",
+  "results": [
+    {
+      "id": "b3_01",
+      "request": "Prairie ride, easy, dodge tumbleweeds.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 47453
+    },
+    {
+      "id": "b3_02",
+      "request": "Rainforest stroll, easy, fallen palm fronds.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45539
+    },
+    {
+      "id": "b3_03",
+      "request": "Treetop hop, easy, bird nests.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45308
+    },
+    {
+      "id": "b3_04",
+      "request": "Harbor jog, easy, fishing nets.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45333
+    },
+    {
+      "id": "b3_05",
+      "request": "Old bridge run, easy, broken planks.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45169
+    },
+    {
+      "id": "b3_06",
+      "request": "Canyon trek, easy, small rockfalls.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45498
+    },
+    {
+      "id": "b3_07",
+      "request": "Coral reef glide, easy, soft anemones.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45545
+    },
+    {
+      "id": "b3_08",
+      "request": "Glacier walk, easy, snow chunks.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45734
+    },
+    {
+      "id": "b3_09",
+      "request": "Marina jog, easy, mooring buoys.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45439
+    },
+    {
+      "id": "b3_10",
+      "request": "Orchid garden hop, easy, flowerbeds.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45583
+    },
+    {
+      "id": "b3_11",
+      "request": "Observatory dome jog, easy, telescope cases.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.3s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 46700
+    },
+    {
+      "id": "b3_12",
+      "request": "Bakery hop, easy, flour sacks.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45544
+    },
+    {
+      "id": "b3_13",
+      "request": "Lavender field amble, easy, beehives.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45230
+    },
+    {
+      "id": "b3_14",
+      "request": "Ice floe hop, easy, penguin clusters.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45514
+    },
+    {
+      "id": "b3_15",
+      "request": "Quiet airplane hangar, easy, fuel drums.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45555
+    },
+    {
+      "id": "b3_16",
+      "request": "Hard inferno run, fire whips.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45192
+    },
+    {
+      "id": "b3_17",
+      "request": "Hard stormcloud sprint, lightning rods.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45392
+    },
+    {
+      "id": "b3_18",
+      "request": "Hard shadow realm, wraith claws.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45693
+    },
+    {
+      "id": "b3_19",
+      "request": "Hard toxic swamp run, acid bubbles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45607
+    },
+    {
+      "id": "b3_20",
+      "request": "Hard cyberlab run, plasma traps.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45678
+    },
+    {
+      "id": "b3_21",
+      "request": "Hard warzone sprint, mines and barricades.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45427
+    },
+    {
+      "id": "b3_22",
+      "request": "Hard blackhole edge, gravity wells.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45751
+    },
+    {
+      "id": "b3_23",
+      "request": "Hard volcanic eruption sprint, ash clouds.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45901
+    },
+    {
+      "id": "b3_24",
+      "request": "Hard mecha hangar, robot debris.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.4s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 47405
+    },
+    {
+      "id": "b3_25",
+      "request": "Hard hellgate run, demon spikes.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.5s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 46364
+    },
+    {
+      "id": "b3_26",
+      "request": "Hard cavefall run, stalactite drops.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 46372
+    },
+    {
+      "id": "b3_27",
+      "request": "Hard frostbite run, ice spikes.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (17.7s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 206153
+    },
+    {
+      "id": "b3_28",
+      "request": "Hard arcade run, glitch walls.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (1.0m) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.7s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (1.0m) | )",
+      "elapsed_ms": 97852
+    },
+    {
+      "id": "b3_29",
+      "request": "Hard samurai dojo, blade traps.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   1 passed (48.9s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 81398
+    },
+    {
+      "id": "b3_30",
+      "request": "Hard quantum lab, particle beams.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (52.6s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.6s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (52.6s) | )",
+      "elapsed_ms": 91409
+    }
+  ]
+}

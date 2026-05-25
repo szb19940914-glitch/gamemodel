@@ -1,0 +1,702 @@
+{
+  "source": "comate",
+  "ensemble_runs": 3,
+  "total": 30,
+  "pass": 29,
+  "fail": 1,
+  "pass_rate": 0.97,
+  "generated_at": "2026-05-19T03:10:25.456Z",
+  "results": [
+    {
+      "id": "b4_01",
+      "request": "Castle courtyard jog, easy, small shields.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 46959
+    },
+    {
+      "id": "b4_02",
+      "request": "Farm lane run, easy, pumpkin hurdles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45820
+    },
+    {
+      "id": "b4_03",
+      "request": "Temple path run, easy, incense stands.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 46258
+    },
+    {
+      "id": "b4_04",
+      "request": "Moonlit road jog, easy, signposts.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 46370
+    },
+    {
+      "id": "b4_05",
+      "request": "Carnival run, easy, toy blocks.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44738
+    },
+    {
+      "id": "b4_06",
+      "request": "Hot spring path, easy, towel baskets.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44765
+    },
+    {
+      "id": "b4_07",
+      "request": "Train yard stroll, easy, small crates.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45021
+    },
+    {
+      "id": "b4_08",
+      "request": "Botanical dome run, easy, seed pods.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45180
+    },
+    {
+      "id": "b4_09",
+      "request": "Riverside path, easy, picnic baskets.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.0s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44832
+    },
+    {
+      "id": "b4_10",
+      "request": "Clocktower square run, easy, gear piles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44626
+    },
+    {
+      "id": "b4_11",
+      "request": "Snow village run, easy, gift boxes.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43869
+    },
+    {
+      "id": "b4_12",
+      "request": "Sunflower field jog, easy, watering cans.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44623
+    },
+    {
+      "id": "b4_13",
+      "request": "Cloud road hop, easy, puff blocks.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45074
+    },
+    {
+      "id": "b4_14",
+      "request": "Beach boardwalk run, easy, sand buckets.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45087
+    },
+    {
+      "id": "b4_15",
+      "request": "Tea garden stroll, easy, ceramic pots.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44550
+    },
+    {
+      "id": "b4_16",
+      "request": "Hard meteor shower run, burning rocks.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.1s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44785
+    },
+    {
+      "id": "b4_17",
+      "request": "Hard doomsday highway, wreck barriers.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.0s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.1s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (14.0s) | )",
+      "elapsed_ms": 44812
+    },
+    {
+      "id": "b4_18",
+      "request": "Hard reactor core sprint, coolant vents.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44912
+    },
+    {
+      "id": "b4_19",
+      "request": "Hard necropolis run, bone spikes.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44856
+    },
+    {
+      "id": "b4_20",
+      "request": "Hard thunder peak, charged crystals.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.1s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 46551
+    },
+    {
+      "id": "b4_21",
+      "request": "Hard acidworks run, leaking barrels.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 46097
+    },
+    {
+      "id": "b4_22",
+      "request": "Hard orbital station, broken satellites.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 50886
+    },
+    {
+      "id": "b4_23",
+      "request": "Hard subway tunnel run, signal posts.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.7s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 46951
+    },
+    {
+      "id": "b4_24",
+      "request": "Hard fortress escape, iron spikes.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45300
+    },
+    {
+      "id": "b4_25",
+      "request": "Hard serpent temple, poison fangs.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 50042
+    },
+    {
+      "id": "b4_26",
+      "request": "Hard red planet sprint, jagged ore.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45034
+    },
+    {
+      "id": "b4_27",
+      "request": "Hard ghost ship deck, cursed anchors.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.1s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44776
+    },
+    {
+      "id": "b4_28",
+      "request": "Hard diamond mine, sharp crystal clusters.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.0s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45492
+    },
+    {
+      "id": "b4_29",
+      "request": "Hard sky forge run, molten anvils.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44981
+    },
+    {
+      "id": "b4_30",
+      "request": "Hard time warp, clock blades.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.5s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45757
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "s02",
+    "request": "Quick forest dash with branches in the way."
+  },
+  {
+    "id": "s05",
+    "request": "Desert sprint with rocks."
+  },
+  {
+    "id": "s11",
+    "request": "Coral reef dash with sea urchins."
+  },
+  {
+    "id": "s12",
+    "request": "Neon city run with hover drones."
+  },
+  {
+    "id": "s15",
+    "request": "Ice cave run with falling icicles."
+  },
+  {
+    "id": "s20",
+    "request": "Mine cart run with stalagmites."
+  },
+  {
+    "id": "s22",
+    "request": "Black-and-white noir alley run."
+  },
+  {
+    "id": "s25",
+    "request": "Halloween graveyard run, hard, tombstones."
+  },
+  {
+    "id": "s28",
+    "request": "Disco runner, dodge spinning discs."
+  },
+  {
+    "id": "s30",
+    "request": "Arctic tundra dash with snow piles."
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "source": "comate",
+  "total": 10,
+  "pass": 10,
+  "fail": 0,
+  "pass_rate": 1,
+  "generated_at": "2026-05-18T07:02:46.307Z",
+  "results": [
+    {
+      "id": "a01",
+      "request": "做一个游戏。",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 16393
+    },
+    {
+      "id": "a02",
+      "request": "我要一个太空跑酷，跳跃力 5000，重力 9999，每像素得 99 分。",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 15299
+    },
+    {
+      "id": "a03",
+      "request": "极简黑白美术的跑酷，请放 6 种不同障碍物。",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 15142
+    },
+    {
+      "id": "a04",
+      "request": "I want a 雨林 platformer with lots of vines, double jump 关闭，难度 hard。",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 5797
+    },
+    {
+      "id": "a05",
+      "request": "做一个平台跳跃：终点放在最右上角 (2300, 80)，世界宽 2400，整个关卡只放 1 个低矮平台在 (300, 340)。",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 5510
+    },
+    {
+      "id": "a06",
+      "request": "做一个 RTS 即时战略游戏，能造兵打仗、资源采集。",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 14685
+    },
+    {
+      "id": "a07",
+      "request": "easy 难度但请把滚动速度调到 999，让它特别难。",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 16263
+    },
+    {
+      "id": "a08",
+      "request": "整个游戏全部使用绿色：玩家、地面、天空、障碍物都必须是纯绿色。",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 15131
+    },
+    {
+      "id": "a09",
+      "request": "做一个无平台的 platformer，玩家直接在地面走到 goal。",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 6011
+    },
+    {
+      "id": "a10",
+      "request": "Tetris-like puzzle: blocks fall from top, complete rows clear.",
+      "stage": "test",
+      "pass": true,
+      "elapsed_ms": 15069
+    }
+  ]
+}

@@ -1,0 +1,703 @@
+{
+  "source": "comate",
+  "ensemble_runs": 3,
+  "total": 30,
+  "pass": 28,
+  "fail": 2,
+  "pass_rate": 0.93,
+  "generated_at": "2026-05-18T12:02:21.206Z",
+  "results": [
+    {
+      "id": "b2_01",
+      "request": "Jungle stroll, easy, vine drop hurdles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 55280
+    },
+    {
+      "id": "b2_02",
+      "request": "Lazy savanna trot dodging termite mounds.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 47866
+    },
+    {
+      "id": "b2_03",
+      "request": "Sunny meadow run, easy, hay bales.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 47048
+    },
+    {
+      "id": "b2_04",
+      "request": "Tropical lagoon hop with floating buoys.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 46427
+    },
+    {
+      "id": "b2_05",
+      "request": "Apple orchard run, easy, fallen baskets.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.5s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 46491
+    },
+    {
+      "id": "b2_06",
+      "request": "Royal garden jog dodging hedge bushes, easy.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 47822
+    },
+    {
+      "id": "b2_07",
+      "request": "Quiet library run, easy, fallen books.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 54252
+    },
+    {
+      "id": "b2_08",
+      "request": "Peaceful shrine run, easy, stone lanterns.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (17.5s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 53883
+    },
+    {
+      "id": "b2_09",
+      "request": "Town plaza run, easy, market crates.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 51644
+    },
+    {
+      "id": "b2_10",
+      "request": "Coastal lighthouse jog, easy, lobster traps.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 50910
+    },
+    {
+      "id": "b2_11",
+      "request": "Soft dawn run, easy, dewy flowerpots.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.2s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 48031
+    },
+    {
+      "id": "b2_12",
+      "request": "Vineyard amble, easy, wine barrels.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.4s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 49152
+    },
+    {
+      "id": "b2_13",
+      "request": "Museum hall run, easy, display pedestals.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 49503
+    },
+    {
+      "id": "b2_14",
+      "request": "Aquarium tunnel run, easy, kelp clumps.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 51527
+    },
+    {
+      "id": "b2_15",
+      "request": "Twilight stroll, easy, glow stones.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 50222
+    },
+    {
+      "id": "b2_16",
+      "request": "Hard dimensional rift run, energy spikes.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (16.9s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 54119
+    },
+    {
+      "id": "b2_17",
+      "request": "Hard deep abyss run, anglerfish lures.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.2s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 50935
+    },
+    {
+      "id": "b2_18",
+      "request": "Hard magma corridor, exploding geysers.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.4s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 51085
+    },
+    {
+      "id": "b2_19",
+      "request": "Hard wasteland sprint, rusted spikes.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.9s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.6s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (14.9s) | )",
+      "elapsed_ms": 48605
+    },
+    {
+      "id": "b2_20",
+      "request": "Hard nightmare run, shadow tendrils.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.5s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 48384
+    },
+    {
+      "id": "b2_21",
+      "request": "Hard void chase, anti-matter shards.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.9s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.4s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (14.9s) | )",
+      "elapsed_ms": 49438
+    },
+    {
+      "id": "b2_22",
+      "request": "Hard lab escape, hard, laser grids.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.5s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 47658
+    },
+    {
+      "id": "b2_23",
+      "request": "Hard factory floor, conveyor crates.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 46802
+    },
+    {
+      "id": "b2_24",
+      "request": "Hard junkyard run, scrap piles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 49087
+    },
+    {
+      "id": "b2_25",
+      "request": "Hard stadium hurdles, electrified gates.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 49066
+    },
+    {
+      "id": "b2_26",
+      "request": "Hard rocket launchpad run, fuel tanks.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.9s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 48530
+    },
+    {
+      "id": "b2_27",
+      "request": "Hard alien hive run, slime pillars.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.6s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 48530
+    },
+    {
+      "id": "b2_28",
+      "request": "Hard ancient ruins, falling columns.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 52834
+    },
+    {
+      "id": "b2_29",
+      "request": "Hard midnight run, shadow blades.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.6s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 50256
+    },
+    {
+      "id": "b2_30",
+      "request": "Hard mirror world run, glass shards.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.9s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 51900
+    }
+  ]
+}

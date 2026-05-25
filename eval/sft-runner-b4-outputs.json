@@ -1,0 +1,1052 @@
+{
+  "b4_01": {
+    "meta": {
+      "title": "Castle Easy",
+      "genre": "runner",
+      "theme": "castle",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0xddccaa",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0x776655",
+      "skyColor": "0xaaccff"
+    },
+    "obstacles": [
+      {
+        "type": "shield",
+        "spawnInterval": 2,
+        "color": "0x999999",
+        "width": 26,
+        "height": 32
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_02": {
+    "meta": {
+      "title": "Farm Easy",
+      "genre": "runner",
+      "theme": "farm",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0xffaa44",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0x886633",
+      "skyColor": "0xffdd99"
+    },
+    "obstacles": [
+      {
+        "type": "pumpkin",
+        "spawnInterval": 2,
+        "color": "0xff7733",
+        "width": 30,
+        "height": 30
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_03": {
+    "meta": {
+      "title": "Temple Easy",
+      "genre": "runner",
+      "theme": "temple",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0xffcc66",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0x886644",
+      "skyColor": "0xddccaa"
+    },
+    "obstacles": [
+      {
+        "type": "stand",
+        "spawnInterval": 2,
+        "color": "0x664422",
+        "width": 24,
+        "height": 34
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_04": {
+    "meta": {
+      "title": "Moonlit Easy",
+      "genre": "runner",
+      "theme": "moonlit",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0xbbccff",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0x333355",
+      "skyColor": "0x111133"
+    },
+    "obstacles": [
+      {
+        "type": "signpost",
+        "spawnInterval": 2,
+        "color": "0x886633",
+        "width": 24,
+        "height": 34
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_05": {
+    "meta": {
+      "title": "Carnival Easy",
+      "genre": "runner",
+      "theme": "carnival",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0xff66aa",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0x773366",
+      "skyColor": "0xffccff"
+    },
+    "obstacles": [
+      {
+        "type": "toyblock",
+        "spawnInterval": 2,
+        "color": "0x33ccff",
+        "width": 30,
+        "height": 30
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_06": {
+    "meta": {
+      "title": "Spa Easy",
+      "genre": "runner",
+      "theme": "spa",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0xffddcc",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0xaa8877",
+      "skyColor": "0xffeeee"
+    },
+    "obstacles": [
+      {
+        "type": "basket",
+        "spawnInterval": 2,
+        "color": "0xccaa88",
+        "width": 30,
+        "height": 30
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_07": {
+    "meta": {
+      "title": "Trainyard Easy",
+      "genre": "runner",
+      "theme": "trainyard",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0x6699cc",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0x555555",
+      "skyColor": "0x99bbcc"
+    },
+    "obstacles": [
+      {
+        "type": "crate",
+        "spawnInterval": 2,
+        "color": "0x664422",
+        "width": 30,
+        "height": 30
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_08": {
+    "meta": {
+      "title": "Botanical Easy",
+      "genre": "runner",
+      "theme": "botanical",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0x88dd88",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0x336633",
+      "skyColor": "0xccffdd"
+    },
+    "obstacles": [
+      {
+        "type": "seedpod",
+        "spawnInterval": 2,
+        "color": "0x669944",
+        "width": 28,
+        "height": 30
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_09": {
+    "meta": {
+      "title": "Riverside Easy",
+      "genre": "runner",
+      "theme": "riverside",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0x66aadd",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0x77aa55",
+      "skyColor": "0xbbddff"
+    },
+    "obstacles": [
+      {
+        "type": "picnic",
+        "spawnInterval": 2,
+        "color": "0xcc7744",
+        "width": 30,
+        "height": 28
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_10": {
+    "meta": {
+      "title": "Clocktower Easy",
+      "genre": "runner",
+      "theme": "clocktower",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0xddaa66",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0x665544",
+      "skyColor": "0xccbb99"
+    },
+    "obstacles": [
+      {
+        "type": "gear",
+        "spawnInterval": 2,
+        "color": "0x888888",
+        "width": 28,
+        "height": 30
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_11": {
+    "meta": {
+      "title": "Snowvillage Easy",
+      "genre": "runner",
+      "theme": "snowvillage",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0xff6666",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0xeeeeff",
+      "skyColor": "0xccddff"
+    },
+    "obstacles": [
+      {
+        "type": "gift",
+        "spawnInterval": 2,
+        "color": "0x66ccff",
+        "width": 30,
+        "height": 30
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_12": {
+    "meta": {
+      "title": "Sunflower Easy",
+      "genre": "runner",
+      "theme": "sunflower",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0xffff66",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0x88aa44",
+      "skyColor": "0xffee99"
+    },
+    "obstacles": [
+      {
+        "type": "can",
+        "spawnInterval": 2,
+        "color": "0x6699aa",
+        "width": 26,
+        "height": 32
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_13": {
+    "meta": {
+      "title": "Cloud Easy",
+      "genre": "runner",
+      "theme": "cloud",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0xaaaaff",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0xffffff",
+      "skyColor": "0xaaccff"
+    },
+    "obstacles": [
+      {
+        "type": "puff",
+        "spawnInterval": 2,
+        "color": "0xeeeeff",
+        "width": 30,
+        "height": 28
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_14": {
+    "meta": {
+      "title": "Beach Easy",
+      "genre": "runner",
+      "theme": "beach",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0xffcc88",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0xddaa66",
+      "skyColor": "0x88ccff"
+    },
+    "obstacles": [
+      {
+        "type": "bucket",
+        "spawnInterval": 2,
+        "color": "0xff6644",
+        "width": 26,
+        "height": 30
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_15": {
+    "meta": {
+      "title": "Tea Easy",
+      "genre": "runner",
+      "theme": "tea",
+      "difficulty": "easy"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 5,
+      "color": "0x99cc88",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 170,
+      "groundColor": "0x775533",
+      "skyColor": "0xddeebb"
+    },
+    "obstacles": [
+      {
+        "type": "teapot",
+        "spawnInterval": 2,
+        "color": "0xccaa88",
+        "width": 28,
+        "height": 30
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.1
+    }
+  },
+  "b4_16": {
+    "meta": {
+      "title": "Meteor Hard",
+      "genre": "runner",
+      "theme": "meteor",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0xffcc44",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x331111",
+      "skyColor": "0x110011"
+    },
+    "obstacles": [
+      {
+        "type": "meteor",
+        "spawnInterval": 1.7,
+        "color": "0xff5522",
+        "width": 28,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  },
+  "b4_17": {
+    "meta": {
+      "title": "Doomsday Hard",
+      "genre": "runner",
+      "theme": "doomsday",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0xaa7744",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x332211",
+      "skyColor": "0x663333"
+    },
+    "obstacles": [
+      {
+        "type": "wreck",
+        "spawnInterval": 1.7,
+        "color": "0x554433",
+        "width": 30,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  },
+  "b4_18": {
+    "meta": {
+      "title": "Reactor Hard",
+      "genre": "runner",
+      "theme": "reactor",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0x66ffcc",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x222244",
+      "skyColor": "0x001122"
+    },
+    "obstacles": [
+      {
+        "type": "vent",
+        "spawnInterval": 1.7,
+        "color": "0x00ffaa",
+        "width": 24,
+        "height": 40
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  },
+  "b4_19": {
+    "meta": {
+      "title": "Necropolis Hard",
+      "genre": "runner",
+      "theme": "necropolis",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0xccbb99",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x221122",
+      "skyColor": "0x332244"
+    },
+    "obstacles": [
+      {
+        "type": "bonespike",
+        "spawnInterval": 1.7,
+        "color": "0xddddcc",
+        "width": 22,
+        "height": 40
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  },
+  "b4_20": {
+    "meta": {
+      "title": "Thunder Hard",
+      "genre": "runner",
+      "theme": "thunder",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0xffff99",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x333355",
+      "skyColor": "0x444488"
+    },
+    "obstacles": [
+      {
+        "type": "crystal",
+        "spawnInterval": 1.7,
+        "color": "0x99ccff",
+        "width": 24,
+        "height": 40
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  },
+  "b4_21": {
+    "meta": {
+      "title": "Acidworks Hard",
+      "genre": "runner",
+      "theme": "acidworks",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0x99ff66",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x223322",
+      "skyColor": "0x335533"
+    },
+    "obstacles": [
+      {
+        "type": "barrel",
+        "spawnInterval": 1.7,
+        "color": "0x66aa33",
+        "width": 30,
+        "height": 36
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  },
+  "b4_22": {
+    "meta": {
+      "title": "Orbital Hard",
+      "genre": "runner",
+      "theme": "orbital",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0xeeeeff",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x111133",
+      "skyColor": "0x000011"
+    },
+    "obstacles": [
+      {
+        "type": "satellite",
+        "spawnInterval": 1.7,
+        "color": "0xaaaacc",
+        "width": 30,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  },
+  "b4_23": {
+    "meta": {
+      "title": "Subway Hard",
+      "genre": "runner",
+      "theme": "subway",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0xffcc33",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x333333",
+      "skyColor": "0x111111"
+    },
+    "obstacles": [
+      {
+        "type": "signal",
+        "spawnInterval": 1.7,
+        "color": "0xff3333",
+        "width": 22,
+        "height": 40
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  },
+  "b4_24": {
+    "meta": {
+      "title": "Fortress Hard",
+      "genre": "runner",
+      "theme": "fortress",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0xbbbbbb",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x444444",
+      "skyColor": "0x666688"
+    },
+    "obstacles": [
+      {
+        "type": "ironspike",
+        "spawnInterval": 1.7,
+        "color": "0x999999",
+        "width": 22,
+        "height": 40
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  },
+  "b4_25": {
+    "meta": {
+      "title": "Serpent Hard",
+      "genre": "runner",
+      "theme": "serpent",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0x88cc44",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x333311",
+      "skyColor": "0x445522"
+    },
+    "obstacles": [
+      {
+        "type": "fang",
+        "spawnInterval": 1.7,
+        "color": "0xccff66",
+        "width": 20,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  },
+  "b4_26": {
+    "meta": {
+      "title": "Redplanet Hard",
+      "genre": "runner",
+      "theme": "redplanet",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0xff8844",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x883322",
+      "skyColor": "0xaa5533"
+    },
+    "obstacles": [
+      {
+        "type": "ore",
+        "spawnInterval": 1.7,
+        "color": "0x662211",
+        "width": 28,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  },
+  "b4_27": {
+    "meta": {
+      "title": "Ghostship Hard",
+      "genre": "runner",
+      "theme": "ghostship",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0xaaddff",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x334455",
+      "skyColor": "0x112233"
+    },
+    "obstacles": [
+      {
+        "type": "anchor",
+        "spawnInterval": 1.7,
+        "color": "0x667788",
+        "width": 28,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  },
+  "b4_28": {
+    "meta": {
+      "title": "Diamondmine Hard",
+      "genre": "runner",
+      "theme": "diamondmine",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0x66ccff",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x332244",
+      "skyColor": "0x111122"
+    },
+    "obstacles": [
+      {
+        "type": "cluster",
+        "spawnInterval": 1.7,
+        "color": "0x88ffff",
+        "width": 24,
+        "height": 40
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  },
+  "b4_29": {
+    "meta": {
+      "title": "Skyforge Hard",
+      "genre": "runner",
+      "theme": "skyforge",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0xffbb66",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x443322",
+      "skyColor": "0x775544"
+    },
+    "obstacles": [
+      {
+        "type": "anvil",
+        "spawnInterval": 1.7,
+        "color": "0x555555",
+        "width": 30,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  },
+  "b4_30": {
+    "meta": {
+      "title": "Timewarp Hard",
+      "genre": "runner",
+      "theme": "timewarp",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 3,
+      "color": "0xffffaa",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 280,
+      "groundColor": "0x221133",
+      "skyColor": "0x332266"
+    },
+    "obstacles": [
+      {
+        "type": "clockblade",
+        "spawnInterval": 1.7,
+        "color": "0xffdd66",
+        "width": 22,
+        "height": 40
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    }
+  }
+}

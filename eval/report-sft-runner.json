@@ -1,0 +1,711 @@
+{
+  "source": "comate",
+  "ensemble_runs": 3,
+  "total": 30,
+  "pass": 20,
+  "fail": 10,
+  "pass_rate": 0.67,
+  "generated_at": "2026-05-18T10:19:46.775Z",
+  "results": [
+    {
+      "id": "s01",
+      "request": "Forest run, easy. Single log obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 48643
+    },
+    {
+      "id": "s02",
+      "request": "Quick forest dash with branches in the way.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.6s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.3s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        }
+      ],
+      "passes": 0,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 0/3 (  3 skipped |   2 passed (14.6s) | )",
+      "elapsed_ms": 46095
+    },
+    {
+      "id": "s03",
+      "request": "Hard forest run with thorny bushes.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45873
+    },
+    {
+      "id": "s04",
+      "request": "Sunny desert run, casual cactus dodging.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45583
+    },
+    {
+      "id": "s05",
+      "request": "Desert sprint with rocks.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.3s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (14.3s) | )",
+      "elapsed_ms": 45296
+    },
+    {
+      "id": "s06",
+      "request": "Brutal desert run, sandstorms and tumbleweeds.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45537
+    },
+    {
+      "id": "s07",
+      "request": "Chill space float, slow asteroids.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45672
+    },
+    {
+      "id": "s08",
+      "request": "Space runner with debris.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45710
+    },
+    {
+      "id": "s09",
+      "request": "Aggressive space run, missiles incoming.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.4s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45952
+    },
+    {
+      "id": "s10",
+      "request": "Underwater run, easy, slow jellyfish.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45668
+    },
+    {
+      "id": "s11",
+      "request": "Coral reef dash with sea urchins.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (14.2s) | )",
+      "elapsed_ms": 45344
+    },
+    {
+      "id": "s12",
+      "request": "Neon city run with hover drones.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.3s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (14.3s) | )",
+      "elapsed_ms": 45492
+    },
+    {
+      "id": "s13",
+      "request": "Hard cyberpunk chase, lasers and turrets.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45089
+    },
+    {
+      "id": "s14",
+      "request": "Sweet candy land, easy, lollipop hurdles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45374
+    },
+    {
+      "id": "s15",
+      "request": "Ice cave run with falling icicles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.3s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.3s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        }
+      ],
+      "passes": 0,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 0/3 (  3 skipped |   2 passed (14.3s) | )",
+      "elapsed_ms": 45657
+    },
+    {
+      "id": "s16",
+      "request": "Volcanic run, lava jets and rocks.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45462
+    },
+    {
+      "id": "s17",
+      "request": "Urban rooftop run with AC units.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.3s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45291
+    },
+    {
+      "id": "s18",
+      "request": "Medieval village run, barrels in the way.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45358
+    },
+    {
+      "id": "s19",
+      "request": "Mountain peak run, dodge falling rocks.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45458
+    },
+    {
+      "id": "s20",
+      "request": "Mine cart run with stalagmites.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.3s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (14.3s) | )",
+      "elapsed_ms": 45571
+    },
+    {
+      "id": "s21",
+      "request": "Relaxed sunset jog, easy obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45375
+    },
+    {
+      "id": "s22",
+      "request": "Black-and-white noir alley run.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.5s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (14.5s) | )",
+      "elapsed_ms": 45704
+    },
+    {
+      "id": "s23",
+      "request": "Pirate ship deck run with rolling barrels.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45419
+    },
+    {
+      "id": "s24",
+      "request": "Fairy garden hop, easy mushroom obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45254
+    },
+    {
+      "id": "s25",
+      "request": "Halloween graveyard run, hard, tombstones.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (14.2s) | )",
+      "elapsed_ms": 45414
+    },
+    {
+      "id": "s26",
+      "request": "Minimal zen run, single white block obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45398
+    },
+    {
+      "id": "s27",
+      "request": "Hard neon arcade run, glowing barriers.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 45406
+    },
+    {
+      "id": "s28",
+      "request": "Disco runner, dodge spinning discs.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (14.2s) | )",
+      "elapsed_ms": 45221
+    },
+    {
+      "id": "s29",
+      "request": "Post-apocalyptic ruin run, hard.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 46168
+    },
+    {
+      "id": "s30",
+      "request": "Arctic tundra dash with snow piles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.1s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (14.1s) | )",
+      "elapsed_ms": 45286
+    }
+  ]
+}

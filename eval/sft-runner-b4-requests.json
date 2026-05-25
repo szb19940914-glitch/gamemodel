@@ -1,0 +1,122 @@
+[
+  {
+    "id": "b4_01",
+    "request": "Castle courtyard jog, easy, small shields."
+  },
+  {
+    "id": "b4_02",
+    "request": "Farm lane run, easy, pumpkin hurdles."
+  },
+  {
+    "id": "b4_03",
+    "request": "Temple path run, easy, incense stands."
+  },
+  {
+    "id": "b4_04",
+    "request": "Moonlit road jog, easy, signposts."
+  },
+  {
+    "id": "b4_05",
+    "request": "Carnival run, easy, toy blocks."
+  },
+  {
+    "id": "b4_06",
+    "request": "Hot spring path, easy, towel baskets."
+  },
+  {
+    "id": "b4_07",
+    "request": "Train yard stroll, easy, small crates."
+  },
+  {
+    "id": "b4_08",
+    "request": "Botanical dome run, easy, seed pods."
+  },
+  {
+    "id": "b4_09",
+    "request": "Riverside path, easy, picnic baskets."
+  },
+  {
+    "id": "b4_10",
+    "request": "Clocktower square run, easy, gear piles."
+  },
+  {
+    "id": "b4_11",
+    "request": "Snow village run, easy, gift boxes."
+  },
+  {
+    "id": "b4_12",
+    "request": "Sunflower field jog, easy, watering cans."
+  },
+  {
+    "id": "b4_13",
+    "request": "Cloud road hop, easy, puff blocks."
+  },
+  {
+    "id": "b4_14",
+    "request": "Beach boardwalk run, easy, sand buckets."
+  },
+  {
+    "id": "b4_15",
+    "request": "Tea garden stroll, easy, ceramic pots."
+  },
+  {
+    "id": "b4_16",
+    "request": "Hard meteor shower run, burning rocks."
+  },
+  {
+    "id": "b4_17",
+    "request": "Hard doomsday highway, wreck barriers."
+  },
+  {
+    "id": "b4_18",
+    "request": "Hard reactor core sprint, coolant vents."
+  },
+  {
+    "id": "b4_19",
+    "request": "Hard necropolis run, bone spikes."
+  },
+  {
+    "id": "b4_20",
+    "request": "Hard thunder peak, charged crystals."
+  },
+  {
+    "id": "b4_21",
+    "request": "Hard acidworks run, leaking barrels."
+  },
+  {
+    "id": "b4_22",
+    "request": "Hard orbital station, broken satellites."
+  },
+  {
+    "id": "b4_23",
+    "request": "Hard subway tunnel run, signal posts."
+  },
+  {
+    "id": "b4_24",
+    "request": "Hard fortress escape, iron spikes."
+  },
+  {
+    "id": "b4_25",
+    "request": "Hard serpent temple, poison fangs."
+  },
+  {
+    "id": "b4_26",
+    "request": "Hard red planet sprint, jagged ore."
+  },
+  {
+    "id": "b4_27",
+    "request": "Hard ghost ship deck, cursed anchors."
+  },
+  {
+    "id": "b4_28",
+    "request": "Hard diamond mine, sharp crystal clusters."
+  },
+  {
+    "id": "b4_29",
+    "request": "Hard sky forge run, molten anvils."
+  },
+  {
+    "id": "b4_30",
+    "request": "Hard time warp, clock blades."
+  }
+]

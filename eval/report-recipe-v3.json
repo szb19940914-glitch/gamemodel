@@ -1,0 +1,247 @@
+{
+  "source": "comate",
+  "ensemble_runs": 3,
+  "total": 10,
+  "pass": 4,
+  "fail": 6,
+  "pass_rate": 0.4,
+  "generated_at": "2026-05-18T09:39:25.461Z",
+  "results": [
+    {
+      "id": "v01",
+      "request": "Forest run, easy, single log obstacles",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 48817
+    },
+    {
+      "id": "v02",
+      "request": "Cyberpunk runner with neon drones",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.8s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 48174
+    },
+    {
+      "id": "v03",
+      "request": "Desert hard run with cactus",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 49744
+    },
+    {
+      "id": "v04",
+      "request": "Ice cave runner with single jump (no double jump)",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.8s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (19.3s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (15.8s) | )",
+      "elapsed_ms": 55211
+    },
+    {
+      "id": "v05",
+      "request": "Candy theme easy runner, lollipop obstacles",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 47208
+    },
+    {
+      "id": "v06",
+      "request": "Jungle platformer easy",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.5s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.5s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.5s) | "
+        }
+      ],
+      "passes": 0,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 0/3 (  3 skipped |   2 passed (13.5s) | )",
+      "elapsed_ms": 43349
+    },
+    {
+      "id": "v07",
+      "request": "Castle platformer normal",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.6s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.1s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (15.6s) | )",
+      "elapsed_ms": 42546
+    },
+    {
+      "id": "v08",
+      "request": "Cloud platforms, hard, wide level",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (18.9s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (17.5s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (20.8s) | "
+        }
+      ],
+      "passes": 0,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 0/3 (  3 skipped |   2 passed (18.9s) | )",
+      "elapsed_ms": 60236
+    },
+    {
+      "id": "v09",
+      "request": "Cave dive platformer normal",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.9s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.7s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (15.6s) | "
+        }
+      ],
+      "passes": 0,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 0/3 (  3 skipped |   2 passed (15.9s) | )",
+      "elapsed_ms": 50104
+    },
+    {
+      "id": "v10",
+      "request": "Rooftop chase, hard, very wide level",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (18.5s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (19.0s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (18.5s) | )",
+      "elapsed_ms": 52570
+    }
+  ]
+}
