@@ -21,8 +21,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 
 const requestsFile = process.env.REQUESTS_FILE || 'eval/lora-smoke-requests.json';
-const outputsFile = process.env.OUTPUTS_FILE || 'eval/lora-smoke-outputs.json';
-const reportFile = process.env.REPORT_FILE || 'eval/report-lora-smoke.json';
+const outputsFile = process.env.OUTPUTS_FILE || 'eval/lora-smoke-outputs-v2.json';
+const reportFile = process.env.REPORT_FILE || 'eval/report-lora-smoke-v2.json';
 const ensembleRuns = process.env.ENSEMBLE_RUNS || '3';
 
 function mustExist(file) {

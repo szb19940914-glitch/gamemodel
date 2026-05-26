@@ -1,0 +1,1156 @@
+{
+  "source": "comate",
+  "ensemble_runs": 3,
+  "total": 50,
+  "pass": 39,
+  "fail": 11,
+  "pass_rate": 0.78,
+  "generated_at": "2026-05-26T11:10:24.951Z",
+  "results": [
+    {
+      "id": "lora_h01",
+      "request": "Easy runner in a moon garden, dodge small glowing stones.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 47165
+    },
+    {
+      "id": "lora_h02",
+      "request": "Hard runner through a reactor tunnel with coolant vents.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43318
+    },
+    {
+      "id": "lora_h03",
+      "request": "Easy runner on a quiet mountain trail, single pinecone obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.5s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 42954
+    },
+    {
+      "id": "lora_h04",
+      "request": "Hard cyber chase with one kind of laser barrier.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43062
+    },
+    {
+      "id": "lora_h05",
+      "request": "Normal beach boardwalk runner with beach buckets.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.5s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.5s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (13.5s) | )",
+      "elapsed_ms": 43049
+    },
+    {
+      "id": "lora_h06",
+      "request": "Easy toy store runner, hop over plush blocks.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43435
+    },
+    {
+      "id": "lora_h07",
+      "request": "Hard lava bridge run with molten rock obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43283
+    },
+    {
+      "id": "lora_h08",
+      "request": "Easy winter village runner, dodge small snowmen.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43363
+    },
+    {
+      "id": "lora_h09",
+      "request": "Hard alien jungle sprint with thorn pod obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43786
+    },
+    {
+      "id": "lora_h10",
+      "request": "Normal city night run, one kind of traffic cone obstacle.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.5s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.7s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (13.5s) | )",
+      "elapsed_ms": 42682
+    },
+    {
+      "id": "lora_h11",
+      "request": "Easy candy factory run with gumdrop hurdles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.5s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43116
+    },
+    {
+      "id": "lora_h12",
+      "request": "Hard storm temple runner, dodge lightning totems.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 42873
+    },
+    {
+      "id": "lora_h13",
+      "request": "Easy sleepy village runner with haystack obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43197
+    },
+    {
+      "id": "lora_h14",
+      "request": "Hard crystal cavern sprint with sharp crystal clusters.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.7s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43402
+    },
+    {
+      "id": "lora_h15",
+      "request": "Normal museum runner, dodge display stands.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.1s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.6s) | "
+        }
+      ],
+      "passes": 0,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 0/3 (  3 skipped |   2 passed (14.2s) | )",
+      "elapsed_ms": 44173
+    },
+    {
+      "id": "lora_h16",
+      "request": "Easy balloon festival run with basket obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43456
+    },
+    {
+      "id": "lora_h17",
+      "request": "Hard orbital debris runner with broken satellite pieces.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.6s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43152
+    },
+    {
+      "id": "lora_h18",
+      "request": "Easy tea house runner, jump over ceramic cups.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 42738
+    },
+    {
+      "id": "lora_h19",
+      "request": "Hard haunted corridor run with tombstone obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 42697
+    },
+    {
+      "id": "lora_h20",
+      "request": "Normal bamboo forest runner with bamboo stump obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.8s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.5s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (13.8s) | )",
+      "elapsed_ms": 43119
+    },
+    {
+      "id": "lora_h21",
+      "request": "Easy aquarium tunnel runner with coral obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 47668
+    },
+    {
+      "id": "lora_h22",
+      "request": "Hard desert ruin sprint with jagged stone pillars.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.7s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.6s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (13.7s) | )",
+      "elapsed_ms": 43361
+    },
+    {
+      "id": "lora_h23",
+      "request": "Easy flower meadow run, single mushroom obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43027
+    },
+    {
+      "id": "lora_h24",
+      "request": "Hard neon arcade runner with glitch block obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43849
+    },
+    {
+      "id": "lora_h25",
+      "request": "Normal pirate dock runner with wooden barrel obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.8s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.5s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (13.8s) | )",
+      "elapsed_ms": 44013
+    },
+    {
+      "id": "lora_h26",
+      "request": "Easy cloud kingdom run, dodge soft puff blocks.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43057
+    },
+    {
+      "id": "lora_h27",
+      "request": "Hard underground mine run with stalagmite hazards.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44073
+    },
+    {
+      "id": "lora_h28",
+      "request": "Easy library runner, hop over book piles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43387
+    },
+    {
+      "id": "lora_h29",
+      "request": "Hard red planet runner with ore shard obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.5s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 42669
+    },
+    {
+      "id": "lora_h30",
+      "request": "Normal rooftop runner with air conditioner unit obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.5s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.6s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (13.5s) | )",
+      "elapsed_ms": 42820
+    },
+    {
+      "id": "lora_h31",
+      "request": "Easy pumpkin farm runner, dodge small pumpkins.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44573
+    },
+    {
+      "id": "lora_h32",
+      "request": "Hard samurai dojo runner with blade stand obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.1s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43628
+    },
+    {
+      "id": "lora_h33",
+      "request": "Easy riverside jog with picnic basket obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44198
+    },
+    {
+      "id": "lora_h34",
+      "request": "Hard toxic sewer runner with slime barrel obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.6s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43333
+    },
+    {
+      "id": "lora_h35",
+      "request": "Normal clocktower runner with gear pile obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.1s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (14.2s) | )",
+      "elapsed_ms": 44819
+    },
+    {
+      "id": "lora_h36",
+      "request": "Easy sunny plaza runner, dodge market boxes.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44350
+    },
+    {
+      "id": "lora_h37",
+      "request": "Hard black hole edge runner with gravity well obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 42818
+    },
+    {
+      "id": "lora_h38",
+      "request": "Easy orchard runner with apple crate obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44673
+    },
+    {
+      "id": "lora_h39",
+      "request": "Hard fortress escape runner with iron spike obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.7s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 48915
+    },
+    {
+      "id": "lora_h40",
+      "request": "Normal carnival runner with toy block obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.6s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.7s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (13.6s) | )",
+      "elapsed_ms": 43410
+    },
+    {
+      "id": "lora_h41",
+      "request": "Easy underwater reef runner with sea sponge obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.6s) | "
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43435
+    },
+    {
+      "id": "lora_h42",
+      "request": "Hard apocalypse highway runner with wreckage obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43513
+    },
+    {
+      "id": "lora_h43",
+      "request": "Easy bakery runner with flour sack obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43775
+    },
+    {
+      "id": "lora_h44",
+      "request": "Hard quantum lab runner with particle beam obstacles.",
+      "stage": "validate",
+      "pass": false,
+      "error": "schema: obstacles[0].width=2 out of [12,80]",
+      "elapsed_ms": 0
+    },
+    {
+      "id": "lora_h45",
+      "request": "Normal snowy trail runner with ice chunk obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.7s) | "
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (13.6s) | "
+        }
+      ],
+      "passes": 1,
+      "runs_total": 3,
+      "pass": false,
+      "error": "majority-fail: 1/3 (  3 skipped |   2 passed (13.7s) | )",
+      "elapsed_ms": 43360
+    },
+    {
+      "id": "lora_h46",
+      "request": "Easy botanical dome runner with seed pod obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44793
+    },
+    {
+      "id": "lora_h47",
+      "request": "Hard ghost ship runner with anchor obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44491
+    },
+    {
+      "id": "lora_h48",
+      "request": "Easy marina runner with buoy obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 43109
+    },
+    {
+      "id": "lora_h49",
+      "request": "Hard dragon cave runner with bone spike obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        }
+      ],
+      "passes": 3,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 48665
+    },
+    {
+      "id": "lora_h50",
+      "request": "Normal moonlit road runner with signpost obstacles.",
+      "stage": "test",
+      "runs": [
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": true,
+          "error": null
+        },
+        {
+          "ok": false,
+          "error": "  3 skipped |   2 passed (14.2s) | "
+        }
+      ],
+      "passes": 2,
+      "runs_total": 3,
+      "pass": true,
+      "elapsed_ms": 44243
+    }
+  ]
+}

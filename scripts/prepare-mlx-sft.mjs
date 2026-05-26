@@ -8,6 +8,7 @@ const ROOT = path.resolve(__dirname, '..');
 const inputFile = process.env.INPUT_JSONL || 'eval/sft-runner.jsonl';
 const outDir = process.env.OUT_DIR || 'mlx-data/runner-lora';
 const trainRatio = Number(process.env.TRAIN_RATIO || '0.9');
+const format = process.env.FORMAT || 'chat';
 
 const inputPath = path.join(ROOT, inputFile);
 const outputPath = path.join(ROOT, outDir);
@@ -27,18 +28,28 @@ const rows = lines.map((line, index) => {
 
   JSON.parse(assistant.content);
 
+  if (format === 'text') {
+    return {
+      text: [
+        '<|im_start|>system',
+        system.content.trim(),
+        '<|im_end|>',
+        '<|im_start|>user',
+        user.content.trim(),
+        '<|im_end|>',
+        '<|im_start|>assistant',
+        assistant.content.trim(),
+        '<|im_end|>',
+      ].join('\n'),
+    };
+  }
+
   return {
-    text: [
-      '<|im_start|>system',
-      system.content.trim(),
-      '<|im_end|>',
-      '<|im_start|>user',
-      user.content.trim(),
-      '<|im_end|>',
-      '<|im_start|>assistant',
-      assistant.content.trim(),
-      '<|im_end|>',
-    ].join('\n'),
+    messages: [
+      { role: 'system', content: system.content.trim() },
+      { role: 'user', content: user.content.trim() },
+      { role: 'assistant', content: assistant.content.trim() },
+    ],
   };
 });
 
@@ -52,5 +63,6 @@ fs.writeFileSync(validPath, valid.map((row) => JSON.stringify(row)).join('\n') +
 
 console.log(`input: ${inputFile}`);
 console.log(`output: ${outDir}`);
+console.log(`format: ${format}`);
 console.log(`train: ${train.length} -> ${path.relative(ROOT, trainPath)}`);
 console.log(`valid: ${valid.length} -> ${path.relative(ROOT, validPath)}`);
