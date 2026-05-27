@@ -26,7 +26,11 @@ mlx-data/
 
 # Generated eval outputs/reports from local runs
 eval/lora-smoke-outputs.json
+eval/lora-smoke-outputs-v3.json
+eval/lora-smoke-outputs-v3-repaired.json
 eval/report-lora-smoke.json
+eval/report-lora-smoke-v3.json
+eval/report-lora-smoke-v3-repaired.json
 eval/lora-training-summary.txt
 
 # TypeScript incremental/build cache

@@ -1,0 +1,475 @@
+{
+  "v3_lora_h05": {
+    "meta": {
+      "title": "Beach Normal Safe",
+      "genre": "runner",
+      "theme": "beach",
+      "difficulty": "normal"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 4,
+      "color": "0xffaa66",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1300,
+      "scrollSpeed": 180,
+      "groundColor": "0x886644",
+      "skyColor": "0xddccaa"
+    },
+    "obstacles": [
+      {
+        "type": "bucket",
+        "spawnInterval": 2,
+        "color": "0x664422",
+        "width": 30,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.13
+    },
+    "experience": {
+      "goalText": "Survive the beach run",
+      "instructionText": "Tap / Space to jump",
+      "failureText": "Try again!",
+      "successText": "Great run!",
+      "mood": "playful",
+      "reward": "score"
+    }
+  },
+  "v3_lora_h10": {
+    "meta": {
+      "title": "City Normal Safe",
+      "genre": "runner",
+      "theme": "city",
+      "difficulty": "normal"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 4,
+      "color": "0x66ccff",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1300,
+      "scrollSpeed": 180,
+      "groundColor": "0x224466",
+      "skyColor": "0x66aaff"
+    },
+    "obstacles": [
+      {
+        "type": "cone",
+        "spawnInterval": 2,
+        "color": "0x666666",
+        "width": 28,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.13
+    },
+    "experience": {
+      "goalText": "Survive the city run",
+      "instructionText": "Tap / Space to jump",
+      "failureText": "Try again!",
+      "successText": "Great run!",
+      "mood": "playful",
+      "reward": "score"
+    }
+  },
+  "v3_lora_h15": {
+    "meta": {
+      "title": "Museum Normal Safe",
+      "genre": "runner",
+      "theme": "museum",
+      "difficulty": "normal"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 4,
+      "color": "0xddccaa",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1250,
+      "scrollSpeed": 180,
+      "groundColor": "0x664422",
+      "skyColor": "0x88aaff"
+    },
+    "obstacles": [
+      {
+        "type": "stand",
+        "spawnInterval": 2,
+        "color": "0x664422",
+        "width": 28,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.13
+    },
+    "experience": {
+      "goalText": "Survive the museum run",
+      "instructionText": "Tap / Space to jump",
+      "failureText": "Try again!",
+      "successText": "Great run!",
+      "mood": "playful",
+      "reward": "score"
+    }
+  },
+  "v3_lora_h20": {
+    "meta": {
+      "title": "Forest Normal Safe",
+      "genre": "runner",
+      "theme": "forest",
+      "difficulty": "normal"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 4,
+      "color": "0x66aadd",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1300,
+      "scrollSpeed": 180,
+      "groundColor": "0x336644",
+      "skyColor": "0x88aaff"
+    },
+    "obstacles": [
+      {
+        "type": "stump",
+        "spawnInterval": 2,
+        "color": "0x664422",
+        "width": 28,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.13
+    },
+    "experience": {
+      "goalText": "Survive the forest run",
+      "instructionText": "Tap / Space to jump",
+      "failureText": "Try again!",
+      "successText": "Great run!",
+      "mood": "playful",
+      "reward": "score"
+    }
+  },
+  "v3_lora_h22": {
+    "meta": {
+      "title": "Desert Hard Safe",
+      "genre": "runner",
+      "theme": "desert",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 4,
+      "color": "0xddccaa",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 250,
+      "groundColor": "0x664422",
+      "skyColor": "0x886644"
+    },
+    "obstacles": [
+      {
+        "type": "jagged",
+        "spawnInterval": 1.9,
+        "color": "0x664422",
+        "width": 28,
+        "height": 36
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    },
+    "experience": {
+      "goalText": "Survive the desert run",
+      "instructionText": "Tap / Space to jump",
+      "failureText": "Try again!",
+      "successText": "Great run!",
+      "mood": "intense",
+      "reward": "survival"
+    }
+  },
+  "v3_lora_h25": {
+    "meta": {
+      "title": "Pirate Normal Safe",
+      "genre": "runner",
+      "theme": "pirate",
+      "difficulty": "normal"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 4,
+      "color": "0xddbb66",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1300,
+      "scrollSpeed": 180,
+      "groundColor": "0x664422",
+      "skyColor": "0x88aaff"
+    },
+    "obstacles": [
+      {
+        "type": "barrel",
+        "spawnInterval": 2,
+        "color": "0x664422",
+        "width": 30,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.13
+    },
+    "experience": {
+      "goalText": "Survive the pirate run",
+      "instructionText": "Tap / Space to jump",
+      "failureText": "Try again!",
+      "successText": "Great run!",
+      "mood": "playful",
+      "reward": "score"
+    }
+  },
+  "v3_lora_h30": {
+    "meta": {
+      "title": "Rooftop Normal Safe",
+      "genre": "runner",
+      "theme": "rooftop",
+      "difficulty": "normal"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 4,
+      "color": "0x66ccff",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1300,
+      "scrollSpeed": 180,
+      "groundColor": "0x886644",
+      "skyColor": "0x664422"
+    },
+    "obstacles": [
+      {
+        "type": "unit",
+        "spawnInterval": 2,
+        "color": "0x66ccff",
+        "width": 30,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.13
+    },
+    "experience": {
+      "goalText": "Survive the rooftop run",
+      "instructionText": "Tap / Space to jump",
+      "failureText": "Try again!",
+      "successText": "Great run!",
+      "mood": "playful",
+      "reward": "score"
+    }
+  },
+  "v3_lora_h35": {
+    "meta": {
+      "title": "Clocktower Normal Safe",
+      "genre": "runner",
+      "theme": "clocktower",
+      "difficulty": "normal"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 4,
+      "color": "0x66ccff",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1300,
+      "scrollSpeed": 180,
+      "groundColor": "0x224466",
+      "skyColor": "0x66aaff"
+    },
+    "obstacles": [
+      {
+        "type": "gear",
+        "spawnInterval": 2,
+        "color": "0x88ccff",
+        "width": 28,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.13
+    },
+    "experience": {
+      "goalText": "Survive the clocktower run",
+      "instructionText": "Tap / Space to jump",
+      "failureText": "Try again!",
+      "successText": "Great run!",
+      "mood": "playful",
+      "reward": "score"
+    }
+  },
+  "v3_lora_h40": {
+    "meta": {
+      "title": "Carnival Normal Safe",
+      "genre": "runner",
+      "theme": "carnival",
+      "difficulty": "normal"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 4,
+      "color": "0xff66cc",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1300,
+      "scrollSpeed": 180,
+      "groundColor": "0x886644",
+      "skyColor": "0x664422"
+    },
+    "obstacles": [
+      {
+        "type": "toyblock",
+        "spawnInterval": 2,
+        "color": "0x664422",
+        "width": 30,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.13
+    },
+    "experience": {
+      "goalText": "Survive the carnival run",
+      "instructionText": "Tap / Space to jump",
+      "failureText": "Try again!",
+      "successText": "Great run!",
+      "mood": "playful",
+      "reward": "score"
+    }
+  },
+  "v3_lora_h44": {
+    "meta": {
+      "title": "Quantum Hard Safe",
+      "genre": "runner",
+      "theme": "quantum",
+      "difficulty": "hard"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 700,
+      "doubleJump": true,
+      "hp": 4,
+      "color": "0x00ffaa",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1500,
+      "scrollSpeed": 250,
+      "groundColor": "0x110022",
+      "skyColor": "0x000022"
+    },
+    "obstacles": [
+      {
+        "type": "beam",
+        "spawnInterval": 1.9,
+        "color": "0xff00ff",
+        "width": 18,
+        "height": 36
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.2
+    },
+    "experience": {
+      "goalText": "Survive the quantum run",
+      "instructionText": "Tap / Space to jump",
+      "failureText": "Try again!",
+      "successText": "Great run!",
+      "mood": "intense",
+      "reward": "survival"
+    }
+  },
+  "v3_lora_h45": {
+    "meta": {
+      "title": "Snow Normal Safe",
+      "genre": "runner",
+      "theme": "snow",
+      "difficulty": "normal"
+    },
+    "player": {
+      "speed": 0,
+      "jumpVelocity": 600,
+      "doubleJump": true,
+      "hp": 4,
+      "color": "0xeeeeff",
+      "size": 32
+    },
+    "world": {
+      "gravity": 1300,
+      "scrollSpeed": 180,
+      "groundColor": "0xeeeeff",
+      "skyColor": "0xaaccdd"
+    },
+    "obstacles": [
+      {
+        "type": "chunk",
+        "spawnInterval": 2,
+        "color": "0x886644",
+        "width": 32,
+        "height": 38
+      }
+    ],
+    "scoring": {
+      "type": "distance",
+      "perPixel": 0.13
+    },
+    "experience": {
+      "goalText": "Survive the snow run",
+      "instructionText": "Tap / Space to jump",
+      "failureText": "Try again!",
+      "successText": "Great run!",
+      "mood": "playful",
+      "reward": "score"
+    }
+  }
+}

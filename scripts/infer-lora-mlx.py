@@ -6,9 +6,9 @@ Must be run inside the .venv-mlx environment after training completes.
 import json, os, sys
 
 MODEL = os.getenv("MODEL", "Qwen/Qwen2.5-Coder-1.5B-Instruct")
-ADAPTER = os.getenv("ADAPTER_PATH", "adapters/runner-qwen15b-v2")
+ADAPTER = os.getenv("ADAPTER_PATH", "adapters/runner-qwen15b-v3")
 REQUESTS_FILE = os.getenv("REQUESTS_FILE", "eval/lora-smoke-requests.json")
-OUTPUTS_FILE = os.getenv("OUTPUTS_FILE", "eval/lora-smoke-outputs-v2.json")
+OUTPUTS_FILE = os.getenv("OUTPUTS_FILE", "eval/lora-smoke-outputs-v3.json")
 PROMPT_FILE = os.getenv("PROMPT_FILE", "prompts/sft-system-compact.md")
 MAX_TOKENS = int(os.getenv("MAX_TOKENS", "900"))
 

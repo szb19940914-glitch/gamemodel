@@ -1,0 +1,46 @@
+[
+  {
+    "id": "v3_lora_h05",
+    "request": "Normal beach boardwalk runner with beach buckets. Keep it clearly playable: safe timing, one obstacle type, and forgiving jumps."
+  },
+  {
+    "id": "v3_lora_h10",
+    "request": "Normal city night run, one kind of traffic cone obstacle. Keep it clearly playable: safe timing, one obstacle type, and forgiving jumps."
+  },
+  {
+    "id": "v3_lora_h15",
+    "request": "Normal museum runner, dodge display stands. Keep it clearly playable: safe timing, one obstacle type, and forgiving jumps."
+  },
+  {
+    "id": "v3_lora_h20",
+    "request": "Normal bamboo forest runner with bamboo stump obstacles. Keep it clearly playable: safe timing, one obstacle type, and forgiving jumps."
+  },
+  {
+    "id": "v3_lora_h22",
+    "request": "Hard desert ruin sprint with jagged stone pillars. Keep it clearly playable: safe timing, one obstacle type, and forgiving jumps."
+  },
+  {
+    "id": "v3_lora_h25",
+    "request": "Normal pirate dock runner with wooden barrel obstacles. Keep it clearly playable: safe timing, one obstacle type, and forgiving jumps."
+  },
+  {
+    "id": "v3_lora_h30",
+    "request": "Normal rooftop runner with air conditioner unit obstacles. Keep it clearly playable: safe timing, one obstacle type, and forgiving jumps."
+  },
+  {
+    "id": "v3_lora_h35",
+    "request": "Normal clocktower runner with gear pile obstacles. Keep it clearly playable: safe timing, one obstacle type, and forgiving jumps."
+  },
+  {
+    "id": "v3_lora_h40",
+    "request": "Normal carnival runner with toy block obstacles. Keep it clearly playable: safe timing, one obstacle type, and forgiving jumps."
+  },
+  {
+    "id": "v3_lora_h44",
+    "request": "Hard quantum lab runner with particle beam obstacles. Keep it clearly playable: safe timing, one obstacle type, and forgiving jumps."
+  },
+  {
+    "id": "v3_lora_h45",
+    "request": "Normal snowy trail runner with ice chunk obstacles. Keep it clearly playable: safe timing, one obstacle type, and forgiving jumps."
+  }
+]
